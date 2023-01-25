@@ -2,6 +2,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
   const name = "Matheus";
@@ -23,6 +24,9 @@ function App() {
       <SayMyName name="Robert"/>
       <SayMyName name={name}/>
       <Pessoa nome="Rodrigo" idade="12" foto={url}/>
+      <h1>Testando CSSS</h1>
+      <Frase />
+      <Frase />
     </div>
   );
 }
